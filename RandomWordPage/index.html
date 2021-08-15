@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="randomWords.js"></script>
+    <link rel="stylesheet" href="sytles.css" />
+    <title>You Found It!!!</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>You Sly Dog...</h1>
+            <p>Admit it, you're here because our meeting is really, really boring and that QR code was just daring you to investigate it. Well, I agree, so let's play a game to make it more interesting.</p>
+            <p>Click the button below to get a list of words you need to work into the meeting. Most points win!</p>
+        </div>
+
+        <div class="form">
+            <button onclick="getRandomWords()">Generate List</button>
+            <ul id="wordList"></ul>
+        </div>
+
+        <div class="small-note">
+            <p>* Don't like your list? Click again for a new one</p>
+        </div>
+    </div>
+   </body>
+</html>

@@ -1,0 +1,66 @@
+@import url(fontawesome-all.min.css);
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Raleway:400,800,900");
+
+body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    background-color: #f4f4f4;
+    
+}
+
+body button{
+    color: #646464;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 14pt;
+    font-weight: 400;
+    line-height: 1.75;
+}
+
+h1, p, ul, li{
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+p{
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h1{
+    background-color: #a0a0a0;
+    padding:10px;
+}
+
+.container{
+    width: 35%;
+    text-align: center;
+    /* display: block; */
+    margin: auto;
+    padding-bottom: 10px;
+    background-color: #c7d2e7;
+}
+
+.form{
+    margin: auto;
+}
+
+ul{
+    margin: auto;
+    padding-right: 40px;
+}
+li{
+    list-style: none;
+}
+
+button{
+    margin-bottom: 10px;
+}
+
+.small-note{
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 13px;
+}
